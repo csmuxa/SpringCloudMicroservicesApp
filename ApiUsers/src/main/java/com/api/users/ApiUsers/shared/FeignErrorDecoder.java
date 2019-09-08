@@ -3,7 +3,10 @@ package com.api.users.ApiUsers.shared;
 import feign.Response;
 import feign.codec.ErrorDecoder;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Component;
 import org.springframework.web.server.ResponseStatusException;
+
+
 
 public class FeignErrorDecoder implements ErrorDecoder {
     @Override
