@@ -1,0 +1,159 @@
+2019-09-15 15:24:18.634  INFO 2484 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2019-09-15 15:24:21.438  INFO 2484 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ApiConfigServer, profiles=[default], label=null, version=4a61381293cf910a98997f3df6e7cb75f8497397, state=null
+2019-09-15 15:24:21.439  INFO 2484 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}]}
+2019-09-15 15:24:21.492  INFO 2484 --- [restartedMain] c.a.users.ApiUsers.ApiUsersApplication   : No active profile set, falling back to default profiles: default
+2019-09-15 15:24:22.621  WARN 2484 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-09-15 15:24:22.862  INFO 2484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-15 15:24:22.964  INFO 2484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 1 repository interfaces.
+2019-09-15 15:24:23.089  WARN 2484 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-09-15 15:24:23.155  WARN 2484 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-15 15:24:23.185  WARN 2484 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-09-15 15:24:23.622  INFO 2484 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c97abef8-a473-3af5-b25f-c3a63ec318af
+2019-09-15 15:24:23.646  INFO 2484 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-09-15 15:24:23.652  INFO 2484 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-09-15 15:24:23.657  INFO 2484 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-09-15 15:24:23.799  INFO 2484 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49124a4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-15 15:24:23.923  INFO 2484 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-15 15:24:23.954  INFO 2484 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$b404057e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-15 15:24:23.964  INFO 2484 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration$$EnhancerBySpringCGLIB$$8f96109e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-15 15:24:23.973  INFO 2484 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration$$EnhancerBySpringCGLIB$$c87db96b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-15 15:24:23.984  INFO 2484 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-15 15:24:24.023  INFO 2484 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$652c4d4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-15 15:24:24.801  INFO 2484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-09-15 15:24:24.834  INFO 2484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-15 15:24:24.835  INFO 2484 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-15 15:24:25.049  INFO 2484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-15 15:24:25.050  INFO 2484 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3542 ms
+2019-09-15 15:24:25.228  WARN 2484 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-15 15:24:25.229  INFO 2484 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-15 15:24:25.239  INFO 2484 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@59ab4c46
+2019-09-15 15:24:27.003  INFO 2484 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-09-15 15:24:27.401  INFO 2484 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-09-15 15:24:28.009  INFO 2484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-15 15:24:28.669  INFO 2484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-15 15:24:28.763  INFO 2484 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-15 15:24:29.009  INFO 2484 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-09-15 15:24:29.013  INFO 2484 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-15 15:24:29.328  INFO 2484 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-15 15:24:29.568  INFO 2484 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-15 15:24:31.003  INFO 2484 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-15 15:24:31.057  WARN 2484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-09-15 15:24:31.946  INFO 2484 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32308c75, org.springframework.security.web.context.SecurityContextPersistenceFilter@6cc83167, org.springframework.security.web.header.HeaderWriterFilter@1c91198, org.springframework.security.web.authentication.logout.LogoutFilter@171a6048, com.api.users.ApiUsers.security.AuthenticationFilter@ccbd65a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e5514c3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45cc7c7a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@739bfa14, org.springframework.security.web.session.SessionManagementFilter@1bfe349d, org.springframework.security.web.access.ExceptionTranslationFilter@14728c02, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@48ac0ea1]
+2019-09-15 15:24:31.998  WARN 2484 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-15 15:24:31.999  INFO 2484 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-15 15:24:32.171  INFO 2484 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-15 15:24:32.217  WARN 2484 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-15 15:24:32.844  INFO 2484 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-15 15:24:34.247  INFO 2484 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-09-15 15:24:35.527  INFO 2484 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2019-09-15 15:24:35.785  INFO 2484 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2019-09-15 15:24:35.813  INFO 2484 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2019-09-15 15:24:35.914  INFO 2484 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2019-09-15 15:24:35.925  INFO 2484 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2019-09-15 15:24:36.015  INFO 2484 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@7ee3d256
+2019-09-15 15:24:36.127  INFO 2484 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2019-09-15 15:24:36.181  INFO 2484 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-09-15 15:24:36.182  INFO 2484 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2019-09-15 15:24:36.182  INFO 2484 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2019-09-15 15:24:37.531  INFO 2484 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2019-09-15 15:24:40.146  INFO 2484 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ApiConfigServer, profiles=[default], label=null, version=4a61381293cf910a98997f3df6e7cb75f8497397, state=null
+2019-09-15 15:24:40.147  INFO 2484 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}]}
+2019-09-15 15:24:40.409  INFO 2484 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2019-09-15 15:24:40.458  INFO 2484 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#358cffb7:0/SimpleConnection@68f5eedf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54021]
+2019-09-15 15:24:40.507  INFO 2484 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2019-09-15 15:24:40.551  INFO 2484 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.wjQbHLEcSd62peY1oBMcsQ, bound to: springCloudBus
+2019-09-15 15:24:40.578  INFO 2484 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.wjQbHLEcSd62peY1oBMcsQ.errors
+2019-09-15 15:24:40.605  INFO 2484 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.wjQbHLEcSd62peY1oBMcsQ.errors' has 1 subscriber(s).
+2019-09-15 15:24:40.606  INFO 2484 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.wjQbHLEcSd62peY1oBMcsQ.errors' has 2 subscriber(s).
+2019-09-15 15:24:40.639  INFO 2484 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.springCloudBus.anonymous.wjQbHLEcSd62peY1oBMcsQ
+2019-09-15 15:24:40.740  INFO 2484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54022 (http) with context path ''
+2019-09-15 15:24:40.742  INFO 2484 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 54022
+2019-09-15 15:24:40.749  INFO 2484 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-09-15 15:24:40.806  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-09-15 15:24:40.881  INFO 2484 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-09-15 15:24:40.882  INFO 2484 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-09-15 15:24:41.032  INFO 2484 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-09-15 15:24:41.033  INFO 2484 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-09-15 15:24:41.224  INFO 2484 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-15 15:24:41.382  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-09-15 15:24:41.382  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-09-15 15:24:41.382  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-09-15 15:24:41.382  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-09-15 15:24:41.382  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-09-15 15:24:41.382  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-09-15 15:24:41.382  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-09-15 15:24:41.532  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-09-15 15:24:41.536  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-09-15 15:24:41.538  INFO 2484 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-15 15:24:41.544  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1568550281541 with initial instances count: 1
+2019-09-15 15:24:41.550  INFO 2484 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERS-WS with eureka with status UP
+2019-09-15 15:24:41.551  INFO 2484 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1568550281551, current=UP, previous=STARTING]
+2019-09-15 15:24:41.554  INFO 2484 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:1f3e3a6bb41757dd85f94ef01e9a0d76: registering service...
+2019-09-15 15:24:41.557  INFO 2484 --- [restartedMain] c.a.users.ApiUsers.ApiUsersApplication   : Started ApiUsersApplication in 26.433 seconds (JVM running for 32.042)
+2019-09-15 15:24:41.596  INFO 2484 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:1f3e3a6bb41757dd85f94ef01e9a0d76 - registration status: 204
+2019-09-15 15:24:42.078  INFO 2484 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-15 15:24:42.078  INFO 2484 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-09-15 15:24:42.101  INFO 2484 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2019-09-15 15:24:42.126  INFO 2484 --- [RMI TCP Connection(4)-127.0.0.1] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2019-09-15 15:24:44.915  INFO 2484 --- [RMI TCP Connection(4)-127.0.0.1] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ApiConfigServer, profiles=[default], label=null, version=4a61381293cf910a98997f3df6e7cb75f8497397, state=null
+2019-09-15 15:27:49.759  INFO 2484 --- [http-nio-auto-1-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-15 15:27:59.842 DEBUG 2484 --- [hystrix-albums-ws-1] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/bdc8a4ac-b807-49a6-b036-3311abcdc798/albums HTTP/1.1
+2019-09-15 15:27:59.842 DEBUG 2484 --- [hystrix-albums-ws-1] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-15 15:28:00.253  INFO 2484 --- [hystrix-albums-ws-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-ws.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-15 15:28:00.319  INFO 2484 --- [hystrix-albums-ws-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-albums-ws
+2019-09-15 15:28:00.320  INFO 2484 --- [hystrix-albums-ws-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: albums-ws instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=albums-ws,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-09-15 15:28:00.333  INFO 2484 --- [hystrix-albums-ws-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2019-09-15 15:28:00.375  INFO 2484 --- [hystrix-albums-ws-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-ws.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-15 15:28:00.379  INFO 2484 --- [hystrix-albums-ws-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client albums-ws initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=albums-ws,current list of Servers=[localhost:54056],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:54056;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 03:00:00 MSK 1970;	First connection made: Thu Jan 01 03:00:00 MSK 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@71ea504f
+2019-09-15 15:28:00.819 ERROR 2484 --- [HystrixTimer-1] c.a.u.A.e.AlbumsServiceClientFallback    : Other error took place null
+2019-09-15 15:28:01.006 DEBUG 2484 --- [hystrix-albums-ws-1] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (1162ms)
+2019-09-15 15:28:01.007 DEBUG 2484 --- [hystrix-albums-ws-1] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-15 15:28:01.007 DEBUG 2484 --- [hystrix-albums-ws-1] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] date: Sun, 15 Sep 2019 12:28:00 GMT
+2019-09-15 15:28:01.007 DEBUG 2484 --- [hystrix-albums-ws-1] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-15 15:28:01.010 DEBUG 2484 --- [hystrix-albums-ws-1] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] 
+2019-09-15 15:28:01.034 DEBUG 2484 --- [hystrix-albums-ws-1] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 2 name","description":"album 2 description"}]
+2019-09-15 15:28:01.035 DEBUG 2484 --- [hystrix-albums-ws-1] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-15 15:28:01.339  INFO 2484 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: albums-ws.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-09-15 15:28:05.823 DEBUG 2484 --- [hystrix-albums-ws-2] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/bdc8a4ac-b807-49a6-b036-3311abcdc798/albums HTTP/1.1
+2019-09-15 15:28:05.823 DEBUG 2484 --- [hystrix-albums-ws-2] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-15 15:28:05.837 DEBUG 2484 --- [hystrix-albums-ws-2] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (9ms)
+2019-09-15 15:28:05.838 DEBUG 2484 --- [hystrix-albums-ws-2] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-15 15:28:05.841 DEBUG 2484 --- [hystrix-albums-ws-2] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] date: Sun, 15 Sep 2019 12:28:05 GMT
+2019-09-15 15:28:05.841 DEBUG 2484 --- [hystrix-albums-ws-2] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-15 15:28:05.841 DEBUG 2484 --- [hystrix-albums-ws-2] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] 
+2019-09-15 15:28:05.841 DEBUG 2484 --- [hystrix-albums-ws-2] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 2 name","description":"album 2 description"}]
+2019-09-15 15:28:05.842 DEBUG 2484 --- [hystrix-albums-ws-2] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-15 15:28:08.427 DEBUG 2484 --- [hystrix-albums-ws-3] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/bdc8a4ac-b807-49a6-b036-3311abcdc798/albums HTTP/1.1
+2019-09-15 15:28:08.428 DEBUG 2484 --- [hystrix-albums-ws-3] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-15 15:28:08.440 DEBUG 2484 --- [hystrix-albums-ws-3] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (11ms)
+2019-09-15 15:28:08.441 DEBUG 2484 --- [hystrix-albums-ws-3] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-15 15:28:08.442 DEBUG 2484 --- [hystrix-albums-ws-3] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] date: Sun, 15 Sep 2019 12:28:08 GMT
+2019-09-15 15:28:08.442 DEBUG 2484 --- [hystrix-albums-ws-3] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-15 15:28:08.442 DEBUG 2484 --- [hystrix-albums-ws-3] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] 
+2019-09-15 15:28:08.443 DEBUG 2484 --- [hystrix-albums-ws-3] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 2 name","description":"album 2 description"}]
+2019-09-15 15:28:08.443 DEBUG 2484 --- [hystrix-albums-ws-3] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-15 15:29:41.389  INFO 2484 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-15 15:34:41.392  INFO 2484 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-15 15:35:42.735 DEBUG 2484 --- [hystrix-albums-ws-4] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/bdc8a4ac-b807-49a6-b036-3311abcdc798/albums HTTP/1.1
+2019-09-15 15:35:42.736 DEBUG 2484 --- [hystrix-albums-ws-4] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-15 15:35:42.747 DEBUG 2484 --- [hystrix-albums-ws-4] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (10ms)
+2019-09-15 15:35:42.748 DEBUG 2484 --- [hystrix-albums-ws-4] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-15 15:35:42.749 DEBUG 2484 --- [hystrix-albums-ws-4] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] date: Sun, 15 Sep 2019 12:35:42 GMT
+2019-09-15 15:35:42.749 DEBUG 2484 --- [hystrix-albums-ws-4] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-15 15:35:42.749 DEBUG 2484 --- [hystrix-albums-ws-4] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] 
+2019-09-15 15:35:42.750 DEBUG 2484 --- [hystrix-albums-ws-4] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 2 name","description":"album 2 description"}]
+2019-09-15 15:35:42.750 DEBUG 2484 --- [hystrix-albums-ws-4] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-15 15:36:04.019 DEBUG 2484 --- [hystrix-albums-ws-5] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> GET http://albums-ws/users/bdc8a4ac-b807-49a6-b036-3311abcdc798/albums HTTP/1.1
+2019-09-15 15:36:04.019 DEBUG 2484 --- [hystrix-albums-ws-5] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2019-09-15 15:36:04.029 DEBUG 2484 --- [hystrix-albums-ws-5] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- HTTP/1.1 200 (9ms)
+2019-09-15 15:36:04.030 DEBUG 2484 --- [hystrix-albums-ws-5] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2019-09-15 15:36:04.030 DEBUG 2484 --- [hystrix-albums-ws-5] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] date: Sun, 15 Sep 2019 12:36:04 GMT
+2019-09-15 15:36:04.031 DEBUG 2484 --- [hystrix-albums-ws-5] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] transfer-encoding: chunked
+2019-09-15 15:36:04.031 DEBUG 2484 --- [hystrix-albums-ws-5] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] 
+2019-09-15 15:36:04.032 DEBUG 2484 --- [hystrix-albums-ws-5] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] [{"albumId":"album1Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"bdc8a4ac-b807-49a6-b036-3311abcdc798","name":"album 2 name","description":"album 2 description"}]
+2019-09-15 15:36:04.033 DEBUG 2484 --- [hystrix-albums-ws-5] c.a.u.A.entity.AlbumsServiceClient       : [AlbumsServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2019-09-15 15:39:41.393  INFO 2484 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
